@@ -140,11 +140,11 @@ def main():
         else:
             assert False, "Unhandled Option"
 
-    if not listen and len(target) and port > 0
+    if not listen and len(target) and port > 0:
         buffer = sys.stdin.read()
         client_sender(buffer)
 
-    if listen
+    if listen:
        server_loop()
 
 main()
