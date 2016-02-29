@@ -94,16 +94,16 @@ def client_sender(buffer):
 
 def usage():
     print "Custom Netcat Tool\r\n"
-    print "Usage: netcat_clone.py -t target_host -p target_port"
+    print "Usage: python netcat_clone.py -t target_host -p target_port"
     print "-l --listen                    Listen on [host]:[port] for incoming connections"
     print "-e --execute=file_to_run       Execute the given file upon receiving a connection"
     print "-c --command                   Initialize a command shell"
     print "-u --upload=destination        Upon receiving connection upload a file and write to [destination]"
-    print "\r\n\r\n"
+    print "\r\n"
     print "Examples:"
-    print "netcat_clone.py -t 192.168.0.1 -p 5555 -l -c"
-    print "netcat_clone.py -t 192.168.0.1 -p 5555 -l -u=c:\\target.exe"
-    print "netcat_clone.py -t 192.168.0.1 -p 5555 -l -e=\"cat /etc/passwd\""
+    print "python netcat_clone.py -t 192.168.0.1 -p 5555 -l -c"
+    print "python netcat_clone.py -t 192.168.0.1 -p 5555 -l -u=c:\\target.exe"
+    print "python netcat_clone.py -t 192.168.0.1 -p 5555 -l -e=\"cat /etc/passwd\""
     print "echo 'message' | python netcat_clone.py -t 192.168.11.12 -p 135"
     sys.exit(0)
 
