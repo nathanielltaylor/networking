@@ -1,0 +1,1 @@
+Various quick examples useful for understanding networking, sockets, packet manipulation and forwarding, and client-server relationships. For educational purposes only. Many of these examples are based on those found in Chapter 2 of Justin Seitz's "Black Hat Python".
